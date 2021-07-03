@@ -13,9 +13,9 @@ INSERT INTO countries (country_id, country_name) VALUES (DEFAULT, 'Kazakhstan');
 
 INSERT INTO countries VALUES (default , 'CHINA', null , 55500000);
 
-INSERT INTO countries (country_id, country_name, region_id, population) VALUES (default , 'KOREA', 8, 140012000),
+INSERT INTO countries (country_id, country_name, region_id, population) VALUES (default , 'Korea', 8, 140012000),
                                                                                (DEFAULT, 'Canada', 2, 37590000),
-                                                                                (default ,'GERMANY', 33, 179002300);
+                                                                                (default ,'Germany', 33, 179002300);
 
 
 alter table countries  alter column country_name set default 'Kazakhstan';

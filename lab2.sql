@@ -11,7 +11,7 @@ insert into countries values (DEFAULT, 'Russia', 5, 140000000);
 
 INSERT INTO countries (country_id, country_name) VALUES (DEFAULT, 'Kazakhstan');
 
-INSERT INTO countries VALUES (default , 'CHINA', null , 55500000);
+INSERT INTO countries VALUES (default , 'China', null , 55500000);
 
 INSERT INTO countries (country_id, country_name, region_id, population) VALUES (default , 'Korea', 8, 140012000),
                                                                                (DEFAULT, 'Canada', 2, 37590000),
